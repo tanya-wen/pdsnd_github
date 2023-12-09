@@ -192,11 +192,19 @@ def main():
         city, month, day = get_filters()
         df, filtered_df = load_data(city, month, day)
 
-        time_stats(df)
         display_data(df)
-        station_stats(filtered_df)
-        trip_duration_stats(filtered_df)
-        user_stats(filtered_df)
+        is_time_stats = input('\nWould you like to look at the most frequent times of travel?\n')
+        if is_time_stats.lower() != 'yes':
+            time_stats(df)
+        is_station_stats = input('\nWould you like to look at the most popular stations?\n')
+        if is_station_stats.lower() != 'yes':
+            station_stats(filtered_df)
+        is_trip_duration_stats = input('\nWould you like to look at the trip duration stats?\n')
+        if is_trip_duration_stats.lower() != 'yes':
+            trip_duration_stats(filtered_df)
+        is_user_stats = input('\nWould you like to look at the user stats?\n')
+        if is_user_stats.lower() != 'yes':
+            user_stats(filtered_df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
