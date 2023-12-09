@@ -11,9 +11,10 @@ Explore US Bikeshare Data
 
 ### Files used
 bikeshare.py
-chicago.csv
-new_york_city.csv
-washington.csv
+> hidden files:
+    > * chicago.csv
+    > * new_york_city.csv
+    > * washington.csv
 
 ### Credits
 This repository was forked from: https://github.com/udacity/pdsnd_github
