@@ -4,7 +4,7 @@ import numpy as np
 
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york': 'new_york_city.csv',
-              'washington': 'washington.csv' }
+              'washington': 'washington.csv' } # Create a dictionary of the cities.
 
 def get_filters():
     """
