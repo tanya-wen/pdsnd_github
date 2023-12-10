@@ -16,9 +16,9 @@ The bikeshare.py file is set up as a script that takes in raw input to create an
 ### Files used
 bikeshare.py
 > hidden files:
-* chicago.csv
-* new_york_city.csv
-* washington.csv
+> chicago.csv
+> new_york_city.csv
+> washington.csv
 
 ### Credits
 This repository was forked from: https://github.com/udacity/pdsnd_github
